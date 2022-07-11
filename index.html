@@ -6,70 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dictionary</title>
-    <link rel="stylesheet" href="dic.tionary.css">
+    <link rel="stylesheet" href="dictionaryStyle.css">
 </head>
 
 <body>
-    <section class="header">
+    <!-- The header stats here -->
+    <header>
         <div class="bar">
-            <div class="leftBar">
+            <div class="topBar">
                 <img src="images/logo1.png" alt="LOGO">
-                <p>Pelgit Collaborative Dictionary</p>
+                <p>Pelgit Dictionary</p>
+              
             </div>
 
-            <div class="rightBar">
-                <a href="#"> Resources</a>
-                <a href="#">Contact</a>
-                <a href="#">About</a>
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"> Resources</a></li>
+                    <li> <a href="#">Contact</a></li>
+                    <li> <a href="#">About</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
+    </header>
+      <!-- The header ends here -->
 
-
-    <section class="hero">
+<!-- the first section fo word search begins here -->
+    <main>
         <div class="container">
             <div class="containerDetails">
                 <p>The collaborative Dictionary of </p>
                 <h2>Product & Design Vernacular</h2>
 
                 <form action="https://www.google.com/search" method="get" class="searchButton">
-                    <img src="images/Search-Button-PNG-HD-Quality.png">
-                    <input type="text" placeholder=" Search for a word or phrase">
-
-                    <button type="submit">
-                    </button>
+                    <button class="searchImage" type="submit"> <img src="images/Search-Button-white.png"
+                            alt=""></button>
+                    <input type="text" placeholder="Search for a word or phrase">
                 </form>
                 <div class="below-text">
                     <a href="#">Net Promoter Score, KPI , How might we...</a>
-                    <a href="#">Can't find wht you are looking for?</a>
+                    <a href="#" id="text2">Can't find wht you are looking for?</a>
                 </div>
             </div>
         </div>
 
-    </section>
+    </main>
+<!-- the first section of word search ends here -->
 
+<!-- the last section of word search begins here -->
 
-    <section class="downText">
+    <div class="downText">
 
         <p>Discover New Terminology</p>
         <h2> Application Programming Interface (API)</h2>
         <h3>API is the acronym for Application Programming Interface,
             which is a software intermediary
-            that <br> allows two applications to talk to each other.</h3>
-    </section>
-    <div class="button">
-        <button class="btn"> Dismiss</button>
-    </div>
+            thatallows two applications to talk to each other. <a href="#">Read more</a></h3>
+     <div class="button">
+        <button class="btn"> <a href="#">Dismiss</a> </button>
+    </div> 
+</div>
 
+<!-- the first section of word search begins here -->
+
+  
+<!-- This the button that holds the light and dark icon -->
     <section class="switchMode">
 
         <button class="imageButton"> </button>
 
     </section>
 
-    
+<!-- this is the linked Js file -->
 
-    <script src="/script/app.js"></script>
+    <script src="/script/dic.js"></script>
 
 </body>
 
